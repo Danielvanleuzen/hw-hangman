@@ -20,7 +20,7 @@ class LinkListContainer extends React.PureComponent {
 
 const mapStateToProps = (state) => {
   return {
-    links: state.links
+    game: state.game
   }
 }
 

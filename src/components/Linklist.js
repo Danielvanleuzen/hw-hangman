@@ -6,5 +6,7 @@ export default function LinkList(props) {
     <h1>Hangman the game!</h1>
       <p><Link to = "/hangman"> 'start playing!'</Link>
       </p>
-  </div>)
+  </div>
+  
+)
 }
