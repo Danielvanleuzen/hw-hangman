@@ -1,15 +1,10 @@
 import * as React from 'react'
-
+import {Link} from 'react-router-dom'
 export default function LinkList(props) {
 
   return (<div>
     <h1>Hangman the game!</h1>
-  
-      { props.links.map(link =>
-        <p key={link.id} onClick={() => props.selectLink(link.id)}>
-          { link.name }
-        </p>
-      ) }
-    
+      <p><Link to = "/hangman"> 'start playing!'</Link>
+      </p>
   </div>)
 }
